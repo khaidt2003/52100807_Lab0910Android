@@ -1,0 +1,68 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/countryNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/confirmedTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00ff00"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textColor="#00ff00"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/recoveredTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#ffff00"
+            android:textSize="18sp"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/criticalsTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#ff9900"
+            android:textSize="18sp"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/deathsTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#ff0000"
+            android:textSize="18sp"
+            android:padding="16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lastUpdatedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp" />
+
+</LinearLayout>

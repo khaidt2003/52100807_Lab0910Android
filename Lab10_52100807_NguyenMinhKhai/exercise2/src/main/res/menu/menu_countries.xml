@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_country1"
+        android:title="Quốc gia 1" />
+    <item
+        android:id="@+id/menu_country2"
+        android:title="Quốc gia 2" />
+    <item
+        android:id="@+id/menu_country3"
+        android:title="Quốc gia 3" />
+    <!-- Thêm các mục quốc gia khác từ API vào đây -->
+</menu>
